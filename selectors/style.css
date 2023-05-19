@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .title1{
+  font-size: italic;
+}
+
+.title2{
+  text-decoration: underline;
+}
+
+.title3{
+  font-style: italic;
+}
+.title1 ,.title2, .title3{
+  color: red;
+} */
+
+/* 
+.box > .title {
+  color:red
+} */
+
+/* .title + .title {
+  color:red;
+} */
+.box1 .title{
+  color: red;
+}
+.box2 .title{
+  color: green;
+}
+
+/* .box1 .title{
+  color: red;
+} */

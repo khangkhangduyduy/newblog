@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    .box{
+      width: calc(80%+20%);
+      height: 120px;
+      background: rgb(209, 102, 102);
+    }
+    .box::after{
+      content:attr(data-title);
+    }
+
+    a::after {
+      content:"("attr(href )")";
+    }
+  </style>
+</head>
+<body>
+  <div class="box" data-title="Đây là box màu đỏ"></div>
+  <a href="http://funllstack.edu.vn">fullstack</a>
+  <h1>CSS functions</h1>
+  <ul>
+    <li>var()</li>
+    <li>linear-gradient()</li>
+    <li>rgba()</li>
+    <li>rgv()</li>
+    <li>calc()</li>
+    <li>attr()</li>
+  </ul>
+</body>
+</html>
